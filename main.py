@@ -8,7 +8,7 @@ one = FastAPI()
 @one.get("/")
 async def read_root():
 
-    return {"massage": "Hello"}
+    return {"massage": "Hello world"}
 
 @one.get("/about")
 async def read_root():
